@@ -9,7 +9,7 @@ Ext.application({
 
             items: [
                 {
-                    title: '첫째메뉴',
+                    title: '1st tab',
                     iconCls: 'home',
                     cls: 'home',
                     html: [
@@ -22,7 +22,7 @@ Ext.application({
                 },
                 {
                     xtype: 'list',
-                    title: '둘째메뉴',
+                    title: '2nd tab',
                     iconCls: 'star',
                     store: {
                         fields: ['title', 'url'],
@@ -38,7 +38,7 @@ Ext.application({
                 //this is the new item
                 {
                     xtype: 'formpanel',
-                    title: 'Contact',
+                    title: '3rd tab',
                     iconCls: 'user',
                     url: 'contact.php',
                     layout: 'vbox',
